@@ -26,7 +26,7 @@ jobs:
           context: .
           push: ${{ github.ref == 'refs/heads/master' }}
           build-args: |
-            CADDY_VERSION=2.7.5
+            CADDY_VERSION=2.10.2
           tags: |
             ghcr.io/williamfligor/caddy:latest
-            ghcr.io/williamfligor/caddy:2.7.5
+            ghcr.io/williamfligor/caddy:2.10.2
